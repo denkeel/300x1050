@@ -69,10 +69,10 @@ body {
 .gwd-image-48p0 {
     position: absolute;
     width: 300px;
-    height: 600px;
     left: 0px;
     top: 0px;
     opacity: 0;
+    height: 600px;
 }
 .gwd-image-17wt {
     position: absolute;
@@ -315,7 +315,13 @@ body {
     width: 170px;
     height: 104px;
     left: 65px;
-    top: 0px;
+    top: -106px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
 }
 .gwd-image-147s {
     position: absolute;
@@ -413,87 +419,6 @@ body {
     left: 4px;
     top: 169px;
     opacity: 0;
-}
-@keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
-    0% {
-        opacity: 0;
-        animation-timing-function: linear;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear;
-    }
-    50% {
-        opacity: 0;
-        animation-timing-function: linear;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear;
-    }
-    56.25% {
-        opacity: 1;
-        animation-timing-function: linear;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear;
-    }
-    93.75% {
-        opacity: 1;
-        animation-timing-function: linear;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear;
-    }
-    100% {
-        opacity: 0;
-        animation-timing-function: linear;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear;
-    }
-}
-@-webkit-keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
-    0% {
-        opacity: 0;
-        -webkit-animation-timing-function: linear;
-    }
-    50% {
-        opacity: 0;
-        -webkit-animation-timing-function: linear;
-    }
-    56.25% {
-        opacity: 1;
-        -webkit-animation-timing-function: linear;
-    }
-    93.75% {
-        opacity: 1;
-        -webkit-animation-timing-function: linear;
-    }
-    100% {
-        opacity: 0;
-        -webkit-animation-timing-function: linear;
-    }
-}
-@-moz-keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
-    0% {
-        opacity: 0;
-        -moz-animation-timing-function: linear;
-    }
-    50% {
-        opacity: 0;
-        -moz-animation-timing-function: linear;
-    }
-    56.25% {
-        opacity: 1;
-        -moz-animation-timing-function: linear;
-    }
-    93.75% {
-        opacity: 1;
-        -moz-animation-timing-function: linear;
-    }
-    100% {
-        opacity: 0;
-        -moz-animation-timing-function: linear;
-    }
-}
-#page1.gwd-play-animation .gwd-gen-1mnwgwdanimation {
-    animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
-    -webkit-animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
-    -moz-animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
 }
 .gwd-image-1ppz {
     position: absolute;
@@ -954,7 +879,391 @@ body {
     animation: gwd-gen-1u0ogwdanimation_gwd-keyframes 14.4s linear 0s 1 normal forwards;
     -webkit-animation: gwd-gen-1u0ogwdanimation_gwd-keyframes 14.4s linear 0s 1 normal forwards;
     -moz-animation: gwd-gen-1u0ogwdanimation_gwd-keyframes 14.4s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-1mnwgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-1mnwgwdanimation {
+    animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-1mnwgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+}
+.gwd-p-1210 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    text-align: center;
+    top: 174px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    width: 283px;
+    height: 195px;
+    transform-origin: 141.179px 97.3795px 0px;
+    -webkit-transform-origin: 141.179px 97.3795px 0px;
+    -moz-transform-origin: 141.179px 97.3795px 0px;
+    line-height: 41px;
+    left: 50%;
+    transform: translate3d(-141px, -5px, 0px);
+    -webkit-transform: translate3d(-141px, -5px, 0px);
+    -moz-transform: translate3d(-141px, -5px, 0px);
+    font-size: 25px;
+}
+.gwd-p-47fz {
+    width: 283px;
+    height: 195px;
+    transform-origin: 141.179px 97.3795px 0px;
+    -webkit-transform-origin: 141.179px 97.3795px 0px;
+    -moz-transform-origin: 141.179px 97.3795px 0px;
+    transform: translate3d(-141px, -6px, 0px);
+    -webkit-transform: translate3d(-141px, -6px, 0px);
+    -moz-transform: translate3d(-141px, -6px, 0px);
+}
+.gwd-p-1tbh {
+    transform: translate3d(-141px, 13px, 0px);
+    -webkit-transform: translate3d(-141px, 13px, 0px);
+    -moz-transform: translate3d(-141px, 13px, 0px);
+    opacity: 0;
+}
+.gwd-p-1phn {
+    opacity: 0;
+}
+@keyframes gwd-gen-b512gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    17.6471% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    29.4118% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    88.2353% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-b512gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    17.6471% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    29.4118% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    88.2353% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-b512gwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    17.6471% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    29.4118% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    88.2353% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-b512gwdanimation {
+    animation: gwd-gen-b512gwdanimation_gwd-keyframes 3.4s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-b512gwdanimation_gwd-keyframes 3.4s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-b512gwdanimation_gwd-keyframes 3.4s linear 0s 1 normal forwards;
+}
+.gwd-p-mnak {
+    opacity: 0;
+}
+@keyframes gwd-gen-lekdgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-lekdgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-lekdgwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    50% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    56.25% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    93.75% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-lekdgwdanimation {
+    animation: gwd-gen-lekdgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-lekdgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-lekdgwdanimation_gwd-keyframes 6.4s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-ihmggwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    97.0149% {
+        opacity: 0;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-ihmggwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    97.0149% {
+        opacity: 0;
+        -webkit-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-ihmggwdanimation_gwd-keyframes {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    97.0149% {
+        opacity: 0;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-ihmggwdanimation {
+    animation: gwd-gen-ihmggwdanimation_gwd-keyframes 13.4s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-ihmggwdanimation_gwd-keyframes 13.4s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-ihmggwdanimation_gwd-keyframes 13.4s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-yeaqgwdanimation_gwd-keyframes {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -moz-transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease;
+        -webkit-animation-timing-function: ease;
+        -moz-animation-timing-function: ease;
+    }
+    100% {
+        transform: translate3d(0px, 106px, 0px);
+        -webkit-transform: translate3d(0px, 106px, 0px);
+        -moz-transform: translate3d(0px, 106px, 0px);
+        animation-timing-function: linear;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
+}
+@-webkit-keyframes gwd-gen-yeaqgwdanimation_gwd-keyframes {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-animation-timing-function: ease;
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 106px, 0px);
+        -webkit-animation-timing-function: linear;
+    }
+}
+@-moz-keyframes gwd-gen-yeaqgwdanimation_gwd-keyframes {
+    0% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -moz-animation-timing-function: ease;
+    }
+    100% {
+        -moz-transform: translate3d(0px, 106px, 0px);
+        -moz-animation-timing-function: linear;
+    }
+}
+#page1.gwd-play-animation .gwd-gen-yeaqgwdanimation {
+    animation: gwd-gen-yeaqgwdanimation_gwd-keyframes 0.6s linear 0s 1 normal forwards;
+    -webkit-animation: gwd-gen-yeaqgwdanimation_gwd-keyframes 0.6s linear 0s 1 normal forwards;
+    -moz-animation: gwd-gen-yeaqgwdanimation_gwd-keyframes 0.6s linear 0s 1 normal forwards;
 }</style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular|Roboto+Slab:700" rel="stylesheet" type="text/css">
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
   <script data-source="gwd_webcomponents_min.js" data-version="6" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
   <script data-source="gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
@@ -971,18 +1280,25 @@ body {
     <gwd-pagedeck class="gwd-page-container" id="pagedeck">
       <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="300px" data-gwd-height="600px">
         <div class="gwd-page-content gwd-page-size">
-          <gwd-image id="gwd-image_1" source="1_2.jpg?1553342861331" scaling="stretch" class="gwd-image-1nzb"></gwd-image>
-          <gwd-image id="3" source="3.jpg?1553342861331" scaling="stretch" class="gwd-image-48p0 gwd-gen-10uzgwdanimation"></gwd-image>
-          <gwd-image id="4" source="4.jpg?1553342861331" scaling="stretch" class="gwd-image-17wt gwd-gen-18bhgwdanimation"></gwd-image>
-          <gwd-image id="5" source="5.jpg?1553342861331" scaling="stretch" class="gwd-image-1ckd gwd-gen-alnpgwdanimation"></gwd-image>
-          <gwd-image id="6" source="6.jpg?1553342861331" scaling="stretch" class="gwd-image-11ua gwd-gen-26mygwdanimation"></gwd-image>
-          <gwd-image id="logo-rect1" source="logo-rect1.jpg?1553342861331" scaling="stretch" class="gwd-image-1d3t"></gwd-image>
-          <gwd-image id="1t" source="1t.png?1553342861331" scaling="stretch" class="gwd-image-147s gwd-gen-1kh4gwdanimation"></gwd-image>
-          <gwd-image id="2t" source="2t.png?1553342861331" scaling="stretch" class="gwd-image-5n3x gwd-gen-1mnwgwdanimation"></gwd-image>
-          <gwd-image id="L3" source="L3.png?1553342861331" scaling="stretch" class="gwd-image-1ppz gwd-gen-vnfcgwdanimation"></gwd-image>
-          <gwd-image id="L4" source="L4.png?1553342861331" scaling="stretch" class="gwd-image-1g4b gwd-gen-mkz5gwdanimation"></gwd-image>
-          <gwd-image id="L5" source="L5.png?1553342861331" scaling="stretch" class="gwd-image-7l4e gwd-gen-2drrgwdanimation"></gwd-image>
-          <gwd-image id="5t" source="5t.png?1553342861331" scaling="stretch" class="gwd-image-bsel gwd-gen-4zzlgwdanimation"></gwd-image>
+          <gwd-image id="gwd-image_1" source="1_2_1.jpg?1553520337062" scaling="stretch" class="gwd-image-1nzb"></gwd-image>
+          <gwd-image id="3" source="3img_comp.jpg?1553520337062" scaling="stretch" class="gwd-image-48p0 gwd-gen-10uzgwdanimation"></gwd-image>
+          <gwd-image id="4" source="4img_comp.jpg?1553520337062" scaling="stretch" class="gwd-image-17wt gwd-gen-18bhgwdanimation"></gwd-image>
+          <gwd-image id="5" source="5img_comp.jpg?1553520337062" scaling="stretch" class="gwd-image-1ckd gwd-gen-alnpgwdanimation"></gwd-image>
+          <gwd-image id="6" source="6_1.jpg?1553520337062" scaling="stretch" class="gwd-image-11ua gwd-gen-26mygwdanimation"></gwd-image>
+          <gwd-image id="logo-rect1" source="logo-rect1_1.jpg?1553520337062" scaling="stretch" class="gwd-image-1d3t gwd-gen-yeaqgwdanimation"></gwd-image>
+          <gwd-image id="1t" source="1back.png?1553520337062" scaling="stretch" class="gwd-image-147s gwd-gen-1kh4gwdanimation"></gwd-image>
+          <p class="gwd-p-1210 gwd-p-1phn gwd-gen-b512gwdanimation">OP ZOEK NAAR INSPIRATIE VOOR JOUW ZOMERSE BEDRIJFSFEEST?
+          </p>
+          <gwd-image id="2t" source="2back.png?1553520337062" scaling="stretch" class="gwd-image-5n3x gwd-gen-1mnwgwdanimation"></gwd-image>
+          <p class="gwd-p-1210 gwd-p-47fz gwd-p-mnak gwd-gen-lekdgwdanimation">GA MEE OP INSPIRATIETOUR<br>
+            LANGS ONZE<br>
+            ZOMERSE CONCEPTEN</p>
+          <gwd-image id="L3" source="L3_comp.png?1553520337062" scaling="stretch" class="gwd-image-1ppz gwd-gen-vnfcgwdanimation"></gwd-image>
+          <gwd-image id="L4" source="L4_comp.png?1553520337062" scaling="stretch" class="gwd-image-1g4b gwd-gen-mkz5gwdanimation"></gwd-image>
+          <gwd-image id="L5" source="L5.png?1553520337062" scaling="stretch" class="gwd-image-7l4e gwd-gen-2drrgwdanimation"></gwd-image>
+          <gwd-image id="5t" source="5back.png?1553520337062" scaling="stretch" class="gwd-image-bsel gwd-gen-4zzlgwdanimation"></gwd-image>
+          <p class="gwd-p-1210 gwd-p-47fz gwd-p-1tbh gwd-gen-ihmggwdanimation">INSPIRATIE VOOR JOUW ZOMERSE BEDRIJFEEST?
+          </p>
           <gwd-imagebutton id="gwd-imagebutton_1" up-image="btn-off.png" over-image="btn-on.png" down-image="btn-on.png" scaling="cover" class="gwd-imagebutton-hcfv gwd-gen-1u0ogwdanimation"></gwd-imagebutton>
         </div>
       </gwd-page>
