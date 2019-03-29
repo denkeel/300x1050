@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        iframe {
+            border: 1px solid black;
+        }
+
+        body {
+            display: flex;
+        }
+
+        .warp {
+            position: relative;
+        }
+
+        .add {
+            position: absolute;
+            top: 300px;
+            left: 500px;
+            background-color: red;
+            padding-right: 50px;
+        }
+
+        .raw {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .ad {
+            position: relative;
+            margin-right: 300px;
+        }
+
+        .hover {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+        <!--
+        <iframe src="NG300600/NG300600.html" frameborder="0" width="300px" height="600px"></iframe>
+        <!-->
+            <div class="ad">
+                <iframe src="NG300600/NG300600.html" frameborder="0" width="300px" height="600px"></iframe>
+            </div>
+            <!--
+            <div class="ad">
+                <iframe src="PN200200/PN300600.html" frameborder="0" width="200px" height="200px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN30050/PN300600.html" frameborder="0" width="300px" height="50px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN46860/PN300600.html" frameborder="0" width="468px" height="60px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN72890/PN300600.html" frameborder="0" width="728px" height="90px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN97090/PN300600.html" frameborder="0" width="970px" height="90px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN32050/PN300600.html" frameborder="0" width="320px" height="50px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN120600/PN300600.html" frameborder="0" width="120px" height="600px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN240400/PN300600.html" frameborder="0" width="240px" height="400px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN250250/PN300600.html" frameborder="0" width="250px" height="250px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN250360/PN300600.html" frameborder="0" width="250px" height="360px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN300250/PN300600.html" frameborder="0" width="300px" height="250px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN300600/PN300600.html" frameborder="0" width="300px" height="600px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN320100/PN300600.html" frameborder="0" width="320px" height="100px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN336280/PN300600.html" frameborder="0" width="336px" height="280px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN580400/PN300600.html" frameborder="0" width="580px" height="400px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN930180/PN300600.html" frameborder="0" width="930px" height="180px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN970250/PN300600.html" frameborder="0" width="970px" height="250px"></iframe>
+            </div>
+            <div class="ad">
+                <iframe src="PN980120/PN300600.html" frameborder="0" width="980px" height="120px"></iframe>
+            </div>
+            <!-->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $(".ad").draggable();
+            });
+        </script>
+</body>
+
+</html>
